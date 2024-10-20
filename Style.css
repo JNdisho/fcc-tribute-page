@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+	box-sizing: border-box;
+	background: linear-gradient(to bottom, #d2b48c, #ffffff);
+}
+
+/*
+
+body {
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+	box-sizing: border-box;
+	background-image: url("Background-Image.jpg"); /* Ensure the image file path is correct */
+	/* background-size: cover; /* Optional: Make the image cover the entire background */
+	/* background-position: center; /* Optional: Center the background image */ /*
+}
+
+*/
+
+#main {
+	background-color: white;
+	 width: 60%; /* You can adjust this width */
+	 max-width: 600px;
+  	padding: 20px; /* Padding for space inside the main element */
+ 	 padding-top: 40px; /* Additional space at the top */
+ 	 padding-bottom: 40px; /* Additional space at the bottom */
+  	border-radius: 15px;
+ 	 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+ 	 text-align: center; /* Center text content inside */
+ 	 margin: auto;
+ 	 margin-top: 60px;
+ 	 margin-bottom: 60px
+}
+
+#tribute-info ul {
+	list-style-position: inside; /* Bullets and text align correctly */
+	padding-left: 0; /* Remove extra padding */
+  }
+  
+  #tribute-info li {
+	margin-bottom: 10px; /* Space between list items */
+	text-indent: -10px; /* Adjust the first word alignment */
+	padding-left: 10px; /* Adjust padding so bullets stay visible */
+  }
+
+  #img-div {
+    text-align: center; /* Centers the image within the div */
+}
+
+img {
+    display: block; /* Makes the image a block element */
+    max-width: 100%; /* Ensures the image is responsive */
+    margin: 0 auto; /* Centers the image within its parent */
+}
+
+#img-caption {
+    margin-top: 20px; /* Optional: adds space above the caption */
+}
